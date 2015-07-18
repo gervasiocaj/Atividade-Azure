@@ -7,3 +7,5 @@ sudo service apache2 restart
 # o diretorio html/ dentro de /var/www/ sera substituido pelo html/ do repositorio
 sudo rm -r /var/www/*
 sudo git clone https://github.com/EnioAbrantes/Atividade-AWS.git /var/www/
+
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
