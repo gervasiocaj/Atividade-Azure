@@ -35,19 +35,18 @@
 
             <div class="row">
                 <div class="col-md-6">
+                    <select class="form-control" name="nome_pessoa">
+
                     <?php
-                    
                     $result = pg_query("SELECT DISTINCT nome FROM tabela ORDER BY nome;");
-
                     if  ($result) {
-                        echo "<select class=\"form-control\" name=\"nome_pessoa\">";
-                            while ($row = pg_fetch_array($result)) {
-                                echo "<option>" . $row["nome"] . "</option>";
-                            }
-                        echo "</select>";
+                        while ($row = pg_fetch_array($result)) {
+                            echo "<option>" . $row["nome"] . "</option>";
+                        }
                     }
-
                     ?>
+
+                    </select>
                 </div>
 
                 <div class="col-md-3">
