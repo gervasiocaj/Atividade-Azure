@@ -1,4 +1,6 @@
-CREATE TABLE tabela (nome VARCHAR, filho VARCHAR);
+DROP TABLE tabela;
+CREATE TABLE tabela (id INT IDENTITY, nome VARCHAR(30), filho VARCHAR(30));
+CREATE UNIQUE CLUSTERED INDEX index_tabela ON tabela (id);
 
 INSERT INTO tabela VALUES ('Zezé di Camargo', 'Wanessa Camargo');
 INSERT INTO tabela VALUES ('Elis Regina', 'Maria Rita');
@@ -25,8 +27,5 @@ FROM tabela;
 SELECT DISTINCT nome 
 FROM tabela 
 ORDER BY nome;
-
-CREATE USER site WITH PASSWORD 'asdf1234';
-GRANT SELECT, INSERT, UPDATE ON tabela TO site;
 
 INSERT INTO tabela VALUES ('Mr. Catra', NULL);
