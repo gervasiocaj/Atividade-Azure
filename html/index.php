@@ -21,8 +21,8 @@
                 <p>Sistema para encontrar os filhos de pais cadastrados no banco de dados. Atividade do projeto de capacitação Huawei, utilizando o Microsoft Azure.</p>
             </div>
 
-            <?php $conexao = mssql_connect("host=equipe6database.database.windows.net port=1433 dbname=equipe6database user=equipe6db password=senha123*") 
-                or die ("<br><div class=\"alert alert-warning\" role=\"alert\">Não foi possivel conectar ao servidor PostGreSQL</div>");
+            <?php $conexao = sqlsrv_connect("host=equipe6database.database.windows.net port=1433 dbname=equipe6database user=equipe6db password=senha123*") 
+                or die ("<br><div class=\"alert alert-warning\" role=\"alert\">Não foi possivel conectar ao servidor SQL</div>");
                 // tenta conectar ao banco de dados e mata a pagina se nao for possivel
                 // se a pagina nao morrer, a mensagem a seguir eh exibida
 
@@ -38,9 +38,9 @@
                     <select class="form-control" name="nome_pessoa">
 
                     <?php
-                    $result = mssql_query("SELECT DISTINCT nome FROM tabela ORDER BY nome;");
+                    $result = sqlsrv_query("SELECT DISTINCT nome FROM tabela ORDER BY nome;");
                     if  ($result) {
-                        while ($row = mssql_fetch_array($result)) {
+                        while ($row = sqlsrv_fetch_array($result)) {
                             echo "<option>" . $row["nome"] . "</option>";
                         }
                     }
@@ -71,8 +71,8 @@
             </thead>
             <tbody>
                 <?php 
-                    $result = mssql_query("SELECT filho FROM tabela WHERE nome = '" . $_POST['nome_pessoa'] . "' ORDER BY filho;");
-                    while ($row = mssql_fetch_array($result)) {
+                    $result = sqlsrv_query("SELECT filho FROM tabela WHERE nome = '" . $_POST['nome_pessoa'] . "' ORDER BY filho;");
+                    while ($row = sqlsrv_fetch_array($result)) {
                         echo "<tr><td>" . $row["filho"] . "</td></tr>";
                     } 
                 ?>
