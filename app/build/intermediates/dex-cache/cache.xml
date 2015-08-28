@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Hebert\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-478236fa368097dab2ae8e50eaf8b25ec1a3fcf2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hebert\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\build\intermediates\pre-dexed\debug\gson-2.2.2-485d9484cc323f33acd2138e7ad2f2cd1b5a84d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\libs\mobileservices-2.0.1-beta-javadoc.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1b76c16589dbfd546bc92a5e2cce2ced0e962de3">
+        <dex dex="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\build\intermediates\pre-dexed\debug\mobileservices-2.0.1-beta-javadoc-0adb8f4f5a2219718aeed84ec371031987b3222d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hebert\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445">
+        <dex dex="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\build\intermediates\pre-dexed\debug\guava-17.0-3fec686023beca48fcef0dc325c88f113dce6814.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\libs\mobileservices-2.0.1-beta.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f225d9c34f93107ee9f5e53f329ce3bb0438545c">
+        <dex dex="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\build\intermediates\pre-dexed\debug\mobileservices-2.0.1-beta-aac882827be047b08b27eccd6015fe7aacb3e14f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\libs\mobileservices-2.0.1-beta-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ebb98da7aa21da91336f4c09f4383242877068a5">
+        <dex dex="C:\Users\Hebert\Android Projects\paisefilhosazure\GetStartedWithData1\app\build\intermediates\pre-dexed\debug\mobileservices-2.0.1-beta-sources-e31522d772d4743188d473237899081ca5b77ccb.jar" />
+    </item>
+
+</items>
